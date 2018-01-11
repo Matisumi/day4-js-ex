@@ -1,6 +1,6 @@
 //popup func
-window.onload = function() {
-	setTimeout( function fonc( ) 
+window.onload = function() {          //when page is loaded
+	setTimeout( function fonc( )      //when timer is over spwn alert
 		{ alert( "Hey le site xxxvidsxxx est trop bien. Viens dessus stp please" ); }
 		, 10000) ;};
 
@@ -14,7 +14,7 @@ butt.onclick = function()
 	{
     var ssrc = sec.getAttribute('style');
     var csrc = container.getAttribute('style');
-    if(ssrc === 'display: none;') 
+    if(ssrc === 'display: none;') //switch
     	{
       	sec.setAttribute ('style','display: all;');
       	cont.setAttribute ('style','display: none;');
@@ -25,13 +25,11 @@ butt.onclick = function()
 // search bar attempt
 var sbutt = document.getElementById("gauche");
 var phrase = "";
-
+var x = "";
 	 function getInput(event)
  	{
-    	var x = event.which || event.keyCode;
-    	//alert(x);
-    	 function sort(x)
-    	{
+    	x = event.which || event.keyCode;
+    	//alert(x); //see if it get the ascii of input
     		if (x === 32)
     		{
     			phrase = phrase + '+';
@@ -42,7 +40,7 @@ var phrase = "";
     		}
     	};
    	  
-	}
+	
 
 sbutt.onclick = function(){alert(phrase);}
 
