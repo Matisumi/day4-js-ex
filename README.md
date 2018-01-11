@@ -1,2 +1,6 @@
-# day4-js-ex
-Repo for THP's js ex
+
+--- bouton display section ->done
+
+--- search bar -> en cours
+
+--- popup harcelement porno -> done

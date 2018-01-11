@@ -24,19 +24,20 @@
 	<section id="section" style="display: none;">
 		<div class="imagegoogle">
 			<img src="img/googlelogov2.png">
+			<p id="demo"></p>
 			<!--<img src="img/googlelogo.png">-->
 		</div>
 
 		<div class="saisieflex">
 			<form class="saisie">
-				<input max="2048" />
+				<input type="text" id="sbar" onkeypress="getInput(event)">
 			</form>
 		</div>
 
 		<div class="send">
-			<a href="https://www.google.fr" target="blank"><button class="searchbutton" id="gauche" >Recherche Google</button></a>
+			<a hre="https://www.google.fr" target="blank"><button class="searchbutton" id="gauche" >Recherche Google</button></a>
 			
-			<a href="https://www.google.fr" target="blank"><button class="searchbutton">J'ai de la chance</button></a>
+			<a href="https://www.google.fr" target="blank"><button class="searchbutton" id="droite">J'ai de la chance</button></a>
 		</div>
 	</section>
 
