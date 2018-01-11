@@ -6,6 +6,44 @@ body
 	padding:0px;
 }
 
+#container
+{
+	display: flex;
+	justify-content: center; 
+
+}
+
+#button
+{
+
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	color:#FFF;
+	background-color: #4285f4;
+	border:1px solid #4285f4;
+	width: 400px;
+	height: 100px;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+
+#button:active
+{
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	color:#FFF;
+	background-color: #1a0dab;
+	border:1px solid #1a0dab;
+	width: 400px;
+	height: 100px;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+
 a
 {
 	text-decoration: none;
