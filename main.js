@@ -23,10 +23,19 @@ butt.onclick = function()
 
 	
 // search bar attempt
-var sbutt = document.getElementById("gauche");
-var phrase = "";
-var x = "";
-	 function getInput(event)
+//var sbutt = document.getElementById("gauche");
+//var phrase = "";
+//var x = "";
+
+let boutonRecherche = document.getElementById("gauche");
+
+boutonRecherche.onclick = function () {
+
+let adresseInput = document.getElementById("sbar").value;
+document.location.href="https://www.google.fr/#q=" + adresseInput;
+
+}
+	/* function getInput(event)
  	{
     	x = event.which || event.keyCode;
     	//alert(x); //see if it get the ascii of input
@@ -42,5 +51,21 @@ var x = "";
    	  
 	
 
-sbutt.onclick = function(){alert(phrase);}
+sbutt.onclick = function(){alert(phrase);}*/
+
+/*function recherche(){
+    var val_input=document.getElementById("sbar").value;
+    val_input.replace(/ /g, "+");
+    sbutt.setAttribute('href',"https://www.google.fr/"+"#q=" + val_input);
+}
+
+sbutt.onclick = function() {
+    recherche()
+}
+
+sbutt.onkeypress= function(){
+    if (event.keyCode == '13'){
+        recherche()
+    }
+}*/
 
