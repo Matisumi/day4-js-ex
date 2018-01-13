@@ -29,7 +29,7 @@ butt.onclick = function()
 
 let boutonRecherche = document.getElementById("gauche");
 
-boutonRecherche.onclick = function () {
+boutonRecherche.onclick = function recherche() {
 
 let adresseInput = document.getElementById("sbar").value;
 document.location.href="https://www.google.fr/#q=" + adresseInput;
@@ -63,7 +63,7 @@ sbutt.onclick = function() {
     recherche()
 }
 
-sbutt.onkeypress= function(){
+boutonRecherche.onkeypress= function(){
     if (event.keyCode == '13'){
         recherche()
     }
